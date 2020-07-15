@@ -281,12 +281,12 @@ blockquote p {
 }
 .logo-holder {
 	position: absolute;
-	left:80px;
-	top:26px;
+	left:-20px;
+	top:-70px;
 	z-index:11;
 }
 .logo-holder img {
-	height:38px;
+	height:200px;
 	width:auto;
 }
  
