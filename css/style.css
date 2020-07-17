@@ -281,13 +281,13 @@ blockquote p {
 }
 .logo-holder {
 	position: absolute;
-	left:-20px;
-	top:-70px;
+	left:0px;
+	top:-30px;
 	z-index:11;
 }
 .logo-holder img {
-	height:200px;
-	width:auto;
+	height:30%;
+    width:auto;
 }
  
 .sb-button , .share-btn {
