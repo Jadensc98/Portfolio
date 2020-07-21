@@ -280,14 +280,17 @@ blockquote p {
 	margin-right:-40px
 }
 .logo-holder {
-	position: absolute;
+    position: absolute;
 	left:80px;
-	top:26px;
+	top:20px;
 	z-index:11;
 }
 .logo-holder img {
-	height:38px;
-	width:auto;
+    position: absolute;
+	height:180px;
+    width:auto;
+    left:-80px;
+    top:-80px;
 }
  
 .sb-button , .share-btn {
@@ -300,7 +303,7 @@ blockquote p {
 }
 .share-btn {
 	line-height:40px;
-	margin-right:10px;
+	margin-right:50px;
 	font-size:18px;
 	top:28px;
 	color:#292929;
@@ -2723,7 +2726,7 @@ section.single-content-section {
 	float:left;
 	width:100%;
 	position:relative;
-	background:#f5f5f5;
+	background: #3d3d3d;
 	margin-bottom:30px;
 }
  
@@ -2757,7 +2760,7 @@ section.single-content-section {
 	padding:10px 20px;
 	font-size:13px;
 	text-align:left;
-	background:#292929;
+	background:#666;
 	color:rgba(255,255,255,0.71);
 }
 .serv-price span {
@@ -2767,6 +2770,7 @@ section.single-content-section {
 }
 .serv-media , .serv-text {
 	float:left;
+    color: black;
 }
 .serv-media {
 	width:50%;
@@ -2774,6 +2778,7 @@ section.single-content-section {
 .serv-text {
 	width:50%;
 	padding:20px 25px;
+    color: black;
  
 }
 /* --------- Skills --------------------------------------*/
@@ -3382,6 +3387,7 @@ section.single-content-section {
 	width:30px;
 	height:30px;
 }
+
 /* ------Cursor------------------------------------------------------------ */ 
 .element {
 	  position: fixed;
